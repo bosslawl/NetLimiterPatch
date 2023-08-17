@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.nlog-project.org/schemas/NLog.xsd NLog.xsd"
+      autoReload="false"
+      throwExceptions="false"
+      internalLogLevel="Off"
+      internalLogFile="nlog-internal.log">
+  <targets>
+    <target name="ColoredConsoleTarget" xsi:type="ColoredConsole" layout="${level:upperCase=true}|${logger}|${message}${onexception:|}${exception:format=toString}"/>
+    <target xsi:type="EventLog" name="SysEventLog" layout="${message}${newline}${exception:format=ToString}" source="NetLimiter Service" log="NetLimiter" />
+    <target xsi:type="File"
+            name="CsvFileTarget"
+            fileName="${specialfolder:folder=CommonApplicationData}/Locktime/NetLimiter/5/logs/nlsvc.log"
+            concurrentWrites="true"
+            archiveAboveSize="524288"
+            archiveNumbering="Rolling"
+            maxArchiveFiles="10"
+            keepFileOpen="true">
+      <layout xsi:type="CsvLayout" delimiter="Pipe" withHeader="false">
+        <column name="time" layout="${longdate}" />
+        <column name="level" layout="${level:upperCase=true}"/>
+        <column name="pid" layout="${processid}"/>
+        <column name="tid" layout="${threadid}"/>
+        <column name="logger" layout="${logger}" />
+        <column name="message" layout="${message}" />
+        <column name="exception" layout="${exception:format=tostring}"/>
+      </layout>
+    </target>
+  </targets>
+  <rules>
+    <!--logger name="*" minlevel="Trace" writeTo="CsvFileTarget" />
+    <logger name="*" minlevel="Trace" writeTo="ColoredConsoleTarget" />
+    <logger name="*" minlevel="Warn" writeTo="SysEventLog" /-->
+    <logger name="*" minlevel="Info" writeTo="CsvFileTarget" />
+    <logger name="*" minlevel="Info" writeTo="ColoredConsoleTarget" />
+    <logger name="*" minlevel="Warn" writeTo="SysEventLog" />
+  </rules>
+</nlog>
