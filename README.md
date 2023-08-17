@@ -14,3 +14,8 @@ To ensure easy access to the exe create a shortcut or pin the exe to your taskba
 
 Only tested on Destiny 2 and ARK (two BattleEye games) and can be opened before the game starts and while the game is open.
 Feel free to test on other games but if you get error coded or banned that's your issue.
+
+## License 
+
+Registration Name:  Vladimir Putin #2
+Registration Code:  XLEVD-PNASB-6A3BD-Z72GJ-SPAH7
