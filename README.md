@@ -6,7 +6,7 @@ it is just a 2 minute hex edit of some detected NetLimiter strings.
 ## Installation
 
 You must have [NetLimiter 5.2.4.0](https://www.netlimiter.com/releases/5-2-4-0) installed for this particular version to work. \
-Just download all the files in this repo as a ZIP and extract them somewhere on your PC,
+Just download all the files in this repo as a ZIP by pressing the `Code` button at the top and the ZIP option and extract them somewhere on your PC,
 when you want to run it just run the `boss.exe` file as Administrator.\
 To ensure easy access to the exe create a shortcut or pin the exe to your taskbar.
 
