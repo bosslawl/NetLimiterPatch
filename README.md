@@ -2,6 +2,7 @@
 
 NetLimiterPatch allows you to open Netlimiter 5 Pro even if it is normally disallowed by AntiCheats, \
 it is just a 2 minute hex edit of some detected NetLimiter strings.
+https://docs.google.com/document/d/1OxmVPbNjV9DC_yqWF_vslnQE7K_KE46c-Tb4XVmApNU/edit?usp=sharing
 
 ## Installation
 
