@@ -13,10 +13,12 @@ To ensure easy access to the exe create a shortcut or pin the exe to your taskba
 
 ## Testing
 
-Only tested on Destiny 2 and ARK (two BattleEye games) and can be opened before the game starts and while the game is open.\
+Tested on Destiny 2, ARK, Warframe, Apex Legends, Overwatch 2 and more and can be opened before the game starts and while the game is open.\
 Feel free to test on other games but if you get error coded or banned that's your issue.
 
 ## License 
 
 Registration Name: Vladimir Putin #2\
-Registration Code: XLEVD-PNASB-6A3BD-Z72GJ-SPAH7
+Registration Code: XLEVD-PNASB-6A3BD-Z72GJ-SPAH7\
+*Please note this license may no longer work, to continue to use NetLimiter either edit the Netlimiter.dll file with an application such as DnSpy and edit 
+all the trial license information or get a license from somewhere*
