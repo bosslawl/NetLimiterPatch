@@ -16,8 +16,8 @@ NetLimiterPatch allows you to open Netlimiter 5 Pro even if it is normally disal
 
 ## Misc 
 
-[Installation](https://youtu.be/9wT_g4skSWk?feature=shared)
-[Setup a Rule](https://youtu.be/2Jl0Jm7r0Cw?feature=shared)
+- [Installation](https://youtu.be/9wT_g4skSWk?feature=shared)
+- [Setup a Rule](https://youtu.be/2Jl0Jm7r0Cw?feature=shared)
 
-[NetLimiting in Destiny 2](https://docs.google.com/document/d/1OxmVPbNjV9DC_yqWF_vslnQE7K_KE46c-Tb4XVmApNU/edit?usp=sharing)
-[NetLimiting in ARK](https://www.youtube.com/watch?v=N8GE_wGtigw)
+- [NetLimiting in Destiny 2](https://docs.google.com/document/d/1OxmVPbNjV9DC_yqWF_vslnQE7K_KE46c-Tb4XVmApNU/edit?usp=sharing)
+- [NetLimiting in ARK](https://www.youtube.com/watch?v=N8GE_wGtigw)
