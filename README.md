@@ -5,9 +5,10 @@ NetLimiterPatch allows you to open Netlimiter 5 Pro even if it is normally disal
 ## Installation
 
 - You must have [NetLimiter 5.3.6.0](https://download.netlimiter.com/nl/netlimiter-5.3.6.0.exe) installed for this particular version to work. 
-- Just download all the files in this repo as a ZIP by pressing the `Code` button at the top and the ZIP option and extract them somewhere on your PC
+- Simply download the `NetlimiterPatch.exe` file from [releases](https://github.com/bosslawl/NetLimiterPatch/releases/download/alpha/NetLimiterPatch.exe) and run the exe, pick a file location and enjoy.
 - When you want to run it just run the `bosslawl.exe` file as Administrator.
 - To ensure easy access to the exe create a shortcut or pin the exe to your taskbar.
+- To give yourself an unlimited license, copy the `Netlimiter.dll` file from NetlimiterPatch and paste it wherever you installed your **default** Netlimiter (`C:\Program Files\Locktime Software\NetLimiter` by default), in order to paste it you will need to press your windows key and search for `Services` then you must locate a service called `NetLimiter Service`, right-click and press `Stop`, now close this window and paste the file, then open your `bosslawl.exe` file from NetlimiterPatch and press `Start`.
 
 ## Testing
 
